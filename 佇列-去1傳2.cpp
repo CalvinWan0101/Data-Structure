@@ -16,11 +16,11 @@ int main()
 			continue;
 		}
 		count = 0;
-		//ªì©l¤Æ°}¦C
+		//ÂªÃ¬Â©lÂ¤Ã†Â°}Â¦C
 		for (int i = 1; i <= n; i++)
 			array[i] = i;
 		head = 1;
-		//tailªºªì©l­È¬°n+1
+		//tailÂªÂºÂªÃ¬Â©lÂ­ÃˆÂ¬Â°n+1
 		tail = n + 1;
 		cout << "Discarded cards: ";
 		while (true)
